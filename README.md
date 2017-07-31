@@ -24,7 +24,7 @@ Instructions:
   flatpak --user remote-add --no-gpg-verify dconf-editor-repo /path/to/your/flatpak/repo
   flatpak --user install dconf-editor-repo ca.desrt.dconf-editor
 ```
-(5) Run thunderbird as an flatpak:
+(5) Run dconf-editor as an flatpak:
 ```
   flatpak run ca.desrt.dconf-editor
 ```
