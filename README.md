@@ -7,13 +7,11 @@ Instructions:
 
 (1) Install the flatpak repository for GNOME nightly:
 ```
-  wget http://sdk.gnome.org/nightly/keys/nightly.gpg
-  flatpak --user remote-add --gpg-import=nightly.gpg gnome-nightly http://sdk.gnome.org/nightly/repo
+    flatpak remote-add --if-not-exists gnome https://sdk.gnome.org/gnome.flatpakrepo
 ```
 (2) Install the required runtimes
 ```
-  flatpak --user install gnome-nightly org.gnome.Platform
-  flatpak --user install gnome-nightly org.gnome.Sdk
+  flatpak install gnome org.gnome.Platform org.gnome.Sdk
 ```
 (3) Build dconf-editor from this directory:
 ```
