@@ -6,6 +6,7 @@
     "sdk": "org.gnome.Sdk",
     "command": "dconf-editor",
     "rename-icon": "dconf-editor",
+    "copy-icon": true,
     "finish-args": [
             "--share=ipc", "--socket=x11",
             "--device=dri",
